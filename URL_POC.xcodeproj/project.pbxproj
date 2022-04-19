@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2B4E40EB280747550091C5EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4E40EA280747550091C5EC /* AppDelegate.swift */; };
-		2B4E40ED280747550091C5EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4E40EC280747550091C5EC /* SceneDelegate.swift */; };
 		2B4E40EF280747550091C5EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4E40EE280747550091C5EC /* ViewController.swift */; };
 		2B4E40F2280747550091C5EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4E40F0280747550091C5EC /* Main.storyboard */; };
 		2B4E40F4280747580091C5EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4E40F3280747580091C5EC /* Assets.xcassets */; };
 		2B4E40F7280747580091C5EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4E40F5280747580091C5EC /* LaunchScreen.storyboard */; };
+		2BD0D5F3280C74F600898668 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD0D5F2280C74F600898668 /* WebViewViewController.swift */; };
+		2BD0D5F7280E88C200898668 /* UIWebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD0D5F6280E88C200898668 /* UIWebviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B4E40E7280747550091C5EC /* URL_POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URL_POC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4E40EA280747550091C5EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B4E40EC280747550091C5EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2B4E40EE280747550091C5EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B4E40F1280747550091C5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B4E40F3280747580091C5EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B4E40F6280747580091C5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B4E40F8280747580091C5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD0D5F2280C74F600898668 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		2BD0D5F6280E88C200898668 /* UIWebviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWebviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				2B4E40EA280747550091C5EC /* AppDelegate.swift */,
-				2B4E40EC280747550091C5EC /* SceneDelegate.swift */,
 				2B4E40EE280747550091C5EC /* ViewController.swift */,
 				2B4E40F0280747550091C5EC /* Main.storyboard */,
 				2B4E40F3280747580091C5EC /* Assets.xcassets */,
 				2B4E40F5280747580091C5EC /* LaunchScreen.storyboard */,
 				2B4E40F8280747580091C5EC /* Info.plist */,
+				2BD0D5F2280C74F600898668 /* WebViewViewController.swift */,
+				2BD0D5F6280E88C200898668 /* UIWebviewViewController.swift */,
 			);
 			path = URL_POC;
 			sourceTree = "<group>";
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B4E40EF280747550091C5EC /* ViewController.swift in Sources */,
+				2BD0D5F3280C74F600898668 /* WebViewViewController.swift in Sources */,
+				2BD0D5F7280E88C200898668 /* UIWebviewViewController.swift in Sources */,
 				2B4E40EB280747550091C5EC /* AppDelegate.swift in Sources */,
-				2B4E40ED280747550091C5EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +301,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
